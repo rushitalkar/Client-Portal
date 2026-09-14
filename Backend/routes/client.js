@@ -7,6 +7,15 @@ import { requireRole, authenticateToken } from "../middleware/auth.js";
 
 const router = express.Router();
 
+router.get('/list', authenticateToken, requireRole('business'), async (req, res) => {
+  try {
+    const clients = await Client.find({ businessId: req.user.businessId }).sort({ createdAt: -1 });
+    res.json(clients);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
 router.post('/register', authenticateToken, requireRole('business'), async (req, res) => {
   try {
     const { name, email, phone } = req.body;
