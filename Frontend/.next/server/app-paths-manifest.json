@@ -1,6 +1,10 @@
 {
   "/page": "app/page.js",
-  "/client/login/page": "app/client/login/page.js",
   "/business/dashboard/page": "app/business/dashboard/page.js",
-  "/business/login/page": "app/business/login/page.js"
+  "/client/dashboard/page": "app/client/dashboard/page.js",
+  "/tally/page": "app/tally/page.js",
+  "/invoices/send/page": "app/invoices/send/page.js",
+  "/white-label/page": "app/white-label/page.js",
+  "/workflows/page": "app/workflows/page.js",
+  "/esign/page": "app/esign/page.js"
 }

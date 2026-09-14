@@ -308,7 +308,7 @@ export default function BusinessDashboard() {
                   required
                   value={clientForm.name}
                   onChange={(e) => setClientForm({ ...clientForm, name: e.target.value })}
-                  placeholder="John Doe"
+                  placeholder="Suresh Kumar"
                   className="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm outline-none focus:ring-2 focus:ring-indigo-500"
                 />
               </div>
@@ -322,7 +322,7 @@ export default function BusinessDashboard() {
                   required
                   value={clientForm.email}
                   onChange={(e) => setClientForm({ ...clientForm, email: e.target.value })}
-                  placeholder="john@example.com"
+                  placeholder="xyz@gmail.com"
                   className="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm outline-none focus:ring-2 focus:ring-indigo-500"
                 />
               </div>
@@ -336,7 +336,7 @@ export default function BusinessDashboard() {
                   required
                   value={clientForm.phone}
                   onChange={(e) => setClientForm({ ...clientForm, phone: e.target.value })}
-                  placeholder="+1234567890"
+                  placeholder="+91234567890"
                   className="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm outline-none focus:ring-2 focus:ring-indigo-500"
                 />
               </div>

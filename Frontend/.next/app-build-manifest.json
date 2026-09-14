@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/business/dashboard/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/business/dashboard/page.js"
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -11,20 +11,40 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/business/dashboard/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/business/dashboard/page.js"
     ],
-    "/client/login/page": [
+    "/client/dashboard/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/client/login/page.js"
+      "static/chunks/app/client/dashboard/page.js"
     ],
-    "/business/login/page": [
+    "/tally/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/business/login/page.js"
+      "static/chunks/app/tally/page.js"
+    ],
+    "/invoices/send/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/invoices/send/page.js"
+    ],
+    "/esign/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/esign/page.js"
+    ],
+    "/white-label/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/white-label/page.js"
+    ],
+    "/workflows/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/workflows/page.js"
     ]
   }
 }
