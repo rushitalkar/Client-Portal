@@ -1,9 +1,9 @@
 # Multi-Tenant Client Portal & Workflow API
 
 Group 4 :
-Rushikesh Talkar
-Ranjeet Munna Sah
-Pratham Kishor Gupta
+Rushikesh Talkar,
+Ranjeet Munna Sah,
+Pratham Kishor Gupta,
 
 
 
